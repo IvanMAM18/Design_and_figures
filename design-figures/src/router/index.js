@@ -1,8 +1,9 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Index from '../View/Index.vue'
-import Login from '../View/Login.vue'
-import NewAccount from '../View/NewAccount.vue'
-import ActivityPage from '../View/ActivityPage.vue'
+import Index from '../view/Index.vue'
+import Login from '../view/Login.vue'
+import NewAccount from '../view/NewAccount.vue'
+import ActivityPage from '../view/ActivityPage.vue'
+import LandingPage from '../view/LandingPage.vue'
 
 const routes = [
     {
@@ -17,7 +18,7 @@ const routes = [
     },
     {
         path: '/NewAccount',
-        name: 'index',
+        name: 'newAccount',
         component: NewAccount
     },
     {
@@ -25,6 +26,11 @@ const routes = [
         name: 'activityPage',
         component: ActivityPage
     },
+    {
+        path: '/LandingPage',
+        name: 'landingPage',
+        component: LandingPage
+    }
 ];
 
 const router = createRouter({

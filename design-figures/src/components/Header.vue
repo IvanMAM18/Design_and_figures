@@ -3,7 +3,7 @@
   <div class="row">
     <div class="col-md-5" style="width:100px;"><img src="../assets/logoDyF.png" class="logo"/></div>
     <div class="col-md-3 ms-auto fondoColUser">
-        <p class="col letras">Iniciar sesion</p>
+        <p class="col letras"><router-link to="/Login">Iniciar sesion</router-link></p>
         <div class="col styleUser "><i class="row icono material-icons">person</i></div>
     </div>
   </div>
