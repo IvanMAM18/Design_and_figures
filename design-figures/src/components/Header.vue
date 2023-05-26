@@ -6,22 +6,21 @@
         <p class="col letras">Usuario</p>
         <div class="btn-group" role="group" aria-label="Button group dropdown">
             <div class="btn-group" role="group">
-              <button id="btnGroupDrop1" class="boton" type="button" data-bs-toggle="dropdown" style="font-size:20px; margin-top: 30px; ">
-                <p class="col letrasBoton">Designs </p> <i class="iconoBoton material-icons rigth">expand_more</i>
+              <button id="btnGroupDrop1" type="button" class="col styleUser " data-bs-toggle="dropdown">
+                <i class="row icono material-icons">person</i>
               </button>
               <ul class="dropdown-menu letrasBoton" style="background-color: #A8F0AF;" aria-labelledby="btnGroupDrop1">
                 <li>
                   <a class="dropdown-item " href="#" style="font-weight: bold;">
-                    Create <i class="material-icons rigth position-absolute end-0 text-end" style="font-size: 1.5em; top:12px; margin-right:10px;">add</i>
+                    Account <i class="material-icons rigth position-absolute end-0 text-end" style="font-size: 1.5em; top:12px; margin-right:10px;">settings</i>
                   </a>
                   <a class="dropdown-item " href="#" style="font-weight: bold;">
-                    Create <i class="material-icons rigth position-absolute end-0 text-end" style="font-size: 1.5em; top:12px; margin-right:10px;">add</i>
+                    Sign out <i class="material-icons rigth position-absolute end-0 text-end" style="font-size: 1.5em; top:42px; margin-right:10px;">logout</i>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-        <button type="button" class="col styleUser "><i class="row icono material-icons">person</i></button>
     </div>
   </div>
 </div>
