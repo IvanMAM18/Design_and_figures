@@ -1,20 +1,20 @@
 <template>
 <footer class="container-fluid fondo ">
-  <div class="row">
-    <div class="col-2"><img src="../assets/logoDyF.png" class="logo"/></div>
-  </div>
   <div class="row mb-0">
-    <div class="col-md-2" style="width:210px;">
-        <p class="col letras">
-            Integrantes:<br> 
-            Ivan Martin Aviles Moreira <br>
-            Guadalupe Eridani Lucero Cota <br>
-            Litzy Ivonne Escalera Silva <br>
-            Michelle Yareni Torres Quintero
-        </p>
-    </div>
-    <div class="col-md-2 ms-auto" style="margin-top:70px; height:40px; width:190px;">
-        <p class="col letras">UABCS - 20 Junio de 2023</p>
+    <div class="col-12"><img src="../assets/logoDyF.png" class="logo"/></div>
+    <div class="col-md-12" style="margin-top: 10px;">
+        <div class="col-6" style="margin-left: 10px;">
+            <p class="letras">
+                Integrantes:<br> 
+                Ivan Martin Aviles Moreira <br>
+                Guadalupe Eridani Lucero Cota <br>
+                Litzy Ivonne Escalera Silva <br>
+                Michelle Yareni Torres Quintero
+            </p>
+        </div>
+        <div class="col-6 ms-auto">
+            <p class="position-relative text-end letras" >UABCS - 20 Diciembre de 2023</p>
+        </div>
     </div>
   </div>
 </footer>
@@ -47,7 +47,8 @@ export default {
     margin-left: 10px;
   }
   .fondo{
-    background: black;
-    height: 175px;
+    background: #406543;
+    border-top: solid #68D16C;
+    border-width: 1.5px;
   }
 </style>
